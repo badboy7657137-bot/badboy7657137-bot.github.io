@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Cool First Website</title>
+  <title>Night's Cool Site</title>
   <style>
     body {
-      background: linear-gradient(to right, #74ebd5, #ACB6E5);
+      background: linear-gradient(to bottom right, #000000, #8B0000);
       font-family: Arial, sans-serif;
       color: #fff;
       text-align: center;
@@ -13,31 +13,33 @@
     h1 {
       font-size: 3em;
       margin-bottom: 20px;
-      text-shadow: 2px 2px #000;
+      text-shadow: 3px 3px #550000;
     }
     p {
       font-size: 1.5em;
       margin-bottom: 30px;
-      text-shadow: 1px 1px #000;
+      text-shadow: 2px 2px #330000;
     }
     a.button {
       display: inline-block;
-      padding: 10px 20px;
-      background-color: #ff6b6b;
+      padding: 12px 25px;
+      background-color: #8B0000;
       color: white;
       text-decoration: none;
-      border-radius: 10px;
-      font-size: 1.2em;
+      border-radius: 12px;
+      font-size: 1.3em;
       transition: 0.3s;
+      box-shadow: 2px 2px 10px #000;
     }
     a.button:hover {
-      background-color: #ff3b3b;
+      background-color: #ff0000;
+      transform: scale(1.1);
     }
   </style>
 </head>
 <body>
-  <h1>👋 Hello, Welcome!</h1>
-  <p>This is my cool first website hosted for free on GitHub Pages.</p>
-  <a class="button" href="#">Click Me!</a>
+  <h1>🌑 Welcome to Night's Domain!</h1>
+  <p>Click the button if you dare…</p>
+  <a class="button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Click Me!</a>
 </body>
 </html>
